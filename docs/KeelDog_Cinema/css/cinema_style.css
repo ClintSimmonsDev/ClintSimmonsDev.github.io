@@ -1,0 +1,12 @@
+.jumbotron {
+	background-image: url("../img/theater.jpg");
+	text-shadow: 1px 2px 4px rgb(0, 0, 0), -2px -2px 4px rgb(0, 0, 0), -1px -1px 2px rgb(0, 0, 0);
+}
+
+.display-4 {
+	color: rgb(239, 247, 255);
+}
+
+.lead {
+	color: white;
+}

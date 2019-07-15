@@ -1,0 +1,63 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;   
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+form {
+    width: 280px;
+    height: 195px;
+    margin: 5px;
+    border: 1px #000 solid;
+    border-radius: 10px;
+}
+
+.inputs {
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.EnterButton {
+    padding: 10px;
+}
+
+.buttonHolder {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.fname {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 255px;
+    height: 18px;
+    border: 1px rgb(180, 178, 178) solid;
+    border-radius: 5px;
+}
+
+.lname {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 255px;
+    height: 18px;
+    border: 1px rgb(180, 178, 178) solid;
+    border-radius: 5px;
+}
+
+.email {
+    margin-left: 10px;
+    width: 255px;
+    height: 18px;
+    border: 1px rgb(180, 178, 178) solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

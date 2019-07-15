@@ -1,0 +1,636 @@
+body {
+	background-color: #c2c2c5;
+	background-image: url("/docs/images/coding-wallpaper.jpg");
+	padding-top: 8px;
+	  }
+	  @media (max-width: 979px) {
+		body {
+		  padding-top: 0px;
+		}
+	  }
+
+.jumbotron {
+	background-image: url("/docs/images/Coding-language-11.jpg");
+	background-size: 100%;
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+.display-2 {
+	text-align: center;
+	text-shadow: 2px 2px 10px #00c3ff;
+	color: white;
+	padding-top: 20px;
+	font-size: 1.7rem;
+	margin: auto;
+}
+
+.display-4 {
+	color: white;
+	font-size: 1rem;
+	text-shadow: 0px 0px 8px rgb(0, 0, 0);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding-top: 25px;
+}
+
+.display-5 {
+	color: white;
+	font-size: 1.4rem;
+	text-shadow: 0px 0px 8px #000000;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	padding-top: 18px;
+	margin: auto;
+}
+
+.alert-heading {
+	font-size: 1.2rem;
+}
+
+.alert {	
+	padding-top: 15px;
+	padding-bottom: 5px;
+	font-size: 14px;
+}
+
+.jumbotron-2 {
+	background-image: url("/docs/images/treasure_map.jpg");
+	background-size: cover;
+	margin-top: 0px;
+	width: 100%;
+	height: 150px;
+}
+
+.centered {
+	font-size: 1.2rem;
+	text-align: center;
+	margin-left: 0px;
+	padding-top: 5px;
+}
+
+.container-fluid {
+	border: 2px solid black;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 1rem;
+	background-color: rgb(216, 216, 216);
+	color: black;
+	height: 40px;
+	margin-top: 15px;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
+.fluent {
+	font-size: 15px;
+}
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	width: 100%;
+}
+
+.flex-container-2 {
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	width: auto;
+	height: auto;
+}
+
+
+.row {
+	
+	background-color: rgb(223, 223, 223);
+	background-size: 100%;
+	color: black;
+	margin: auto;
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
+.row-2 {
+	
+	background-color: rgb(223, 223, 223);
+	background-size: 100%;
+	color: black;
+	margin: auto;
+	width: auto;
+	height: auto;
+	border-radius: 10px;
+	padding-top: 5px;
+}
+
+.category {
+	flex-wrap: wrap;
+	margin: 85px 10px 35px 15px;
+	padding-bottom: none;
+	text-shadow: 1px 1px 1px #00c3ff;
+}
+
+.col-header {
+	flex-wrap: wrap;
+	margin: auto;
+	text-shadow: 1px 1px 1px #00c3ff;
+	padding-bottom: none;
+}
+
+h2 {
+	font-size: 1.5rem;
+	padding-top: 10px;
+	padding-bottom: none;
+}
+
+.col-sm {
+	margin: auto;
+	padding-bottom: 25px;
+	
+}
+
+.card-deck {
+	
+	margin: auto;
+}
+
+.card {
+	background-color: transparent;
+	width: auto;
+	margin: auto;
+	margin-top: 20px;
+}
+.img-responsive {
+	width: 100px;
+	height: 138px;
+}
+
+.card-body {
+	border-radius: 10px;
+}
+
+/*---------------------MEDIA QUERIES------------------------*/
+
+@media (min-width: 576px) { 
+	.jumbotron {
+		background-image: url("/docs/images/Coding-language-11.jpg");
+		background-size: 100%;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}	
+	.display-2 {
+		text-shadow: 2px 2px 10px #00c3ff;
+		margin-top: 0px;
+		font-size: 2.5rem;
+	}
+	.display-4 {
+		color: white;
+		font-size: 1.4rem;
+		text-shadow: 0px 0px 8px rgb(0, 0, 0);
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 25px;
+	}
+	.display-5 {
+		color: white;
+		font-size: 2rem;
+		text-shadow: 0px 0px 8px #000000;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		padding-top: 26px;
+		margin: auto;
+	}
+	.alert-heading {
+		font-size: 1.2rem;
+	}
+	.alert {	
+		padding-top: 15px;
+		padding-bottom: 10px;
+		font-size: 15px;
+	}
+	.jumbotron-2 {
+		background-image: url("/docs/images/treasure_map.jpg");
+		background-size: cover;
+		margin-top: 0px;
+		width: 100%;
+		height: 150px;
+	}
+	.container-fluid {
+		border: 2px solid black;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2rem;
+		background-color: rgb(216, 216, 216);
+		color: black;
+		height: 40px;
+		margin-top: 15px;
+		border-radius: 10px;
+		padding-top: 4px;
+	}
+
+	.fluent {
+		font-size: 18px;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		border: 2px solid black;
+		width: 100%;
+		height: fit-content;
+	}
+	
+	.row {
+		background-color: rgb(223, 223, 223);
+		background-size: 100%;
+		color: black;
+		margin: auto;
+		width: 100%;
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+	
+	.col-header {
+		flex-wrap: wrap;
+		margin: auto;
+		text-shadow: 1px 1px 1px #00c3ff;
+	}
+	h2 {
+		font-size: 2rem;
+		padding-top: 10px;
+		padding-bottom: none;
+	}
+	
+	.col-sm {
+		margin: auto;
+		padding-bottom: 25px;
+		
+	}
+	.centered {
+		position: relative;
+		font-size: 22px;
+		margin-top: none;
+		padding-top: 30px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	
+	.card {
+		padding: 0px;
+		
+		margin-top: 0px;
+		width: auto;
+	}
+
+	.card-title {
+		font-size: 17px;
+	}
+	.card-text {
+		font-size: 13px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	.jumbotron {
+		background-image: url("/docs/images/Coding-language-11.jpg");
+		background-size: 100%;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+	.display-2 {
+		text-shadow: 2px 2px 10px #00c3ff;
+		margin-top: 0px;
+		font-size: 2.8rem;
+	}
+	.display-4 {
+		color: white;
+		font-size: 1.5rem;
+		text-shadow: 0px 0px 8px rgb(0, 0, 0);
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 35px;
+	}
+	.display-5 {
+		color: white;
+		font-size: 2.3rem;
+		text-shadow: 0px 0px 8px #000000;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		padding-top: 26px;
+		margin: auto;
+	}
+	.alert-heading {
+		font-size: 1.2rem;
+	}
+	.alert {	
+		padding-top: 15px;
+		padding-bottom: 10px;
+		font-size: 16px;
+	}
+	.jumbotron-2 {
+		background-image: url("/docs/images/treasure_map.jpg");
+		background-size: cover;
+		margin-top: 0px;
+		width: 100%;
+		height: 150px;
+	}
+	.container-fluid {
+		border: 2px solid black;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2rem;
+		background-color: rgb(216, 216, 216);
+		color: black;
+		height: 40px;
+		margin-top: 15px;
+		border-radius: 10px;
+		padding-top: 4px;
+	}
+
+	.fluent {
+		font-size: 20px;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		border: 2px solid black;
+		width: 100%;
+		height: fit-content;
+	}
+	
+	.row {
+		background-color: rgb(223, 223, 223);
+		background-size: 100%;
+		color: black;
+		margin: auto;
+		width: 100%;
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+	
+	.col-header {
+		flex-wrap: wrap;
+		margin: auto;
+		text-shadow: 1px 1px 1px #00c3ff;
+	}
+	h2 {
+		font-size: 2rem;
+		padding-top: none;
+		padding-bottom: none;
+	}
+	
+	.col-sm {
+		margin: auto;
+		padding-bottom: 25px;
+		
+	}
+	.centered {
+		position: relative;
+		font-size: 25px;
+		margin-top: none;
+		padding-top: 30px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.card {
+		padding: 0px;
+		
+		margin-top: 0px;
+		width: auto;
+	}
+
+	.card-title {
+		font-size: 18px;
+	}
+	.card-text {
+		font-size: 13px;
+	}
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.jumbotron {
+		background-image: url("/docs/images/Coding-language-11.jpg");
+		background-size: 100%;
+		margin: auto;
+		width: 100%;
+	}
+	.display-2 {
+		text-shadow: 2px 2px 10px #00c3ff;
+		margin-top: 0px;
+		font-size: 3rem;
+	}
+	.display-4 {
+		color: white;
+		font-size: 1.6rem;
+		text-shadow: 0px 0px 8px rgb(0, 0, 0);
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 40px;
+	}
+	.display-5 {
+		color: white;
+		font-size: 2.6em;
+		text-shadow: 0px 0px 8px #000000;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		padding-top: 26px;
+		margin: auto;
+	}
+	.alert-heading {
+		font-size: 1.2rem;
+	}
+	.alert {	
+		padding-top: 15px;
+		padding-bottom: 4px;
+	}
+	.jumbotron-2 {
+		background-image: url("/docs/images/treasure_map.jpg");
+		background-size: cover;
+		margin-top: 0px;
+		width: 100%;
+		height: 150px;
+	}
+	.container-fluid {
+		border: 2px solid black;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2rem;
+		background-color: rgb(216, 216, 216);
+		color: black;
+		height: 40px;
+		margin-top: 15px;
+		border-radius: 10px;
+		padding-top: 4px;
+	}
+
+	.fluent {
+		font-size: 20px;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		border: 2px solid black;
+		width: 100%;
+		height: fit-content;
+	}
+	
+	.row {	
+		background-color: rgb(223, 223, 223);
+		background-size: 100%;
+		color: black;
+		margin: auto;
+		width: 100%;
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+	
+	.col-header {
+		flex-wrap: wrap;
+		margin: auto;
+		text-shadow: 1px 1px 1px #00c3ff;
+	}
+	h2 {
+		font-size: 2rem;
+		padding-bottom: none;
+	}
+	
+	.col-sm {
+		margin: auto;
+		padding-bottom: 25px;
+		
+	}
+	.centered {
+		position: relative;
+		font-size: 25px;
+		margin-top: none;
+		padding-top: 30px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.card {
+		padding: 0px;
+		
+		margin-top: 0px;
+		width: auto;
+	}
+
+	.card-title {
+		font-size: 21px;
+	}
+	.card-text {
+		font-size: 14px;
+	}
+ }
+
+/*/ Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.jumbotron {
+		background-image: url("/docs/images/Coding-language-11.jpg");
+		background-size: 100%;
+		margin: auto;
+		width: 100%;
+		height: auto;
+	}
+	.display-2 {
+		text-shadow: 2px 2px 10px #00c3ff;
+		font-size: 60px;
+	}
+	.display-4 {
+		color: white;
+		font-size: 1.8rem;
+		text-shadow: 0px 0px 8px rgb(0, 0, 0);
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		padding-top: 35px;
+	}
+	.display-5 {
+		color: white;
+		font-size: 2.8rem;
+		text-shadow: 0px 0px 8px #000000;
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		padding-top: 26px;
+		margin: auto;
+	}
+	.alert-heading {
+		font-size: 1.2rem;
+	}
+	.alert {	
+		padding-top: 15px;
+		padding-bottom: 6px;
+	}
+	.jumbotron-2 {
+		background-image: url("/docs/images/treasure_map.jpg");
+		background-size: cover;
+		margin-top: 0px;
+		width: 100%;
+		height: 150px;
+	}
+	.container-fluid {
+		border: 2px solid black;
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 1.2rem;
+		background-color: rgb(216, 216, 216);
+		color: black;
+		height: 40px;
+		margin-top: 15px;
+		border-radius: 10px;
+		padding-top: 4px;
+	}
+
+	.fluent {
+		font-size: 20px;
+	}
+
+	.flex-container {
+		display: flex;
+		flex-wrap: wrap;
+		border: 2px solid black;
+		width: 100%;
+		height: fit-content;
+	}
+	
+	.row {	
+		background-color: rgb(223, 223, 223);
+		background-size: 100%;
+		color: black;
+		margin: auto;
+		width: 100%;
+		height: 330px;
+		border-radius: 10px;
+		padding-top: 20px;
+	}
+	
+	.col-header {
+		flex-wrap: wrap;
+		margin-top: 0px;;
+		text-shadow: 1px 1px 1px #00c3ff;
+	}
+	h2 {
+		font-size: 2rem;
+		padding-top: 10px;
+		padding-bottom: none;
+	}
+	
+	.col-sm {
+		margin: auto;
+		padding-bottom: 25px;
+		
+	}
+	.centered {
+		position: relative;
+		margin-top: none;
+		padding-top: 30px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.card {
+		padding: 0px;
+		margin-top: 0px;
+		width: auto;
+	}
+
+	.card-title {
+		font-size: 23px;
+	}
+	.card-text {
+		font-size: 16px;
+	}
+ }
