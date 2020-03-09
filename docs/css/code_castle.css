@@ -47,7 +47,7 @@ body {
 	font-size: 1.2rem;
 }
 
-.alert {	
+.alert {
 	padding-top: 15px;
 	padding-bottom: 5px;
 	font-size: 14px;
@@ -102,7 +102,7 @@ body {
 
 
 .row {
-	
+
 	background-color: rgb(223, 223, 223);
 	background-size: 100%;
 	color: black;
@@ -113,7 +113,7 @@ body {
 }
 
 .row-2 {
-	
+
 	background-color: rgb(223, 223, 223);
 	background-size: 100%;
 	color: black;
@@ -134,6 +134,7 @@ body {
 .col-header {
 	flex-wrap: wrap;
 	margin: auto;
+	color: white;
 	text-shadow: 1px 1px 1px #00c3ff;
 	padding-bottom: none;
 }
@@ -147,11 +148,11 @@ h2 {
 .col-sm {
 	margin: auto;
 	padding-bottom: 25px;
-	
+
 }
 
 .card-deck {
-	
+
 	margin: auto;
 }
 
@@ -172,14 +173,14 @@ h2 {
 
 /*---------------------MEDIA QUERIES------------------------*/
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
 	.jumbotron {
 		background-image: url("/docs/images/Coding-language-11.jpg");
 		background-size: 100%;
 		margin: auto;
 		width: 100%;
 		height: auto;
-	}	
+	}
 	.display-2 {
 		text-shadow: 2px 2px 10px #00c3ff;
 		margin-top: 0px;
@@ -203,7 +204,7 @@ h2 {
 	.alert-heading {
 		font-size: 1.2rem;
 	}
-	.alert {	
+	.alert {
 		padding-top: 15px;
 		padding-bottom: 10px;
 		font-size: 15px;
@@ -238,7 +239,7 @@ h2 {
 		width: 100%;
 		height: fit-content;
 	}
-	
+
 	.row {
 		background-color: rgb(223, 223, 223);
 		background-size: 100%;
@@ -248,7 +249,7 @@ h2 {
 		border-radius: 10px;
 		padding-top: 20px;
 	}
-	
+
 	.col-header {
 		flex-wrap: wrap;
 		margin: auto;
@@ -259,11 +260,11 @@ h2 {
 		padding-top: 10px;
 		padding-bottom: none;
 	}
-	
+
 	.col-sm {
 		margin: auto;
 		padding-bottom: 25px;
-		
+
 	}
 	.centered {
 		position: relative;
@@ -274,10 +275,10 @@ h2 {
 		transform: translate(-50%, -50%);
 	}
 
-	
+
 	.card {
 		padding: 0px;
-		
+
 		margin-top: 0px;
 		width: auto;
 	}
@@ -291,7 +292,7 @@ h2 {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 	.jumbotron {
 		background-image: url("/docs/images/Coding-language-11.jpg");
 		background-size: 100%;
@@ -322,7 +323,7 @@ h2 {
 	.alert-heading {
 		font-size: 1.2rem;
 	}
-	.alert {	
+	.alert {
 		padding-top: 15px;
 		padding-bottom: 10px;
 		font-size: 16px;
@@ -357,7 +358,7 @@ h2 {
 		width: 100%;
 		height: fit-content;
 	}
-	
+
 	.row {
 		background-color: rgb(223, 223, 223);
 		background-size: 100%;
@@ -367,7 +368,7 @@ h2 {
 		border-radius: 10px;
 		padding-top: 20px;
 	}
-	
+
 	.col-header {
 		flex-wrap: wrap;
 		margin: auto;
@@ -378,11 +379,11 @@ h2 {
 		padding-top: none;
 		padding-bottom: none;
 	}
-	
+
 	.col-sm {
 		margin: auto;
 		padding-bottom: 25px;
-		
+
 	}
 	.centered {
 		position: relative;
@@ -394,7 +395,7 @@ h2 {
 	}
 	.card {
 		padding: 0px;
-		
+
 		margin-top: 0px;
 		width: auto;
 	}
@@ -438,7 +439,7 @@ h2 {
 	.alert-heading {
 		font-size: 1.2rem;
 	}
-	.alert {	
+	.alert {
 		padding-top: 15px;
 		padding-bottom: 4px;
 	}
@@ -472,8 +473,8 @@ h2 {
 		width: 100%;
 		height: fit-content;
 	}
-	
-	.row {	
+
+	.row {
 		background-color: rgb(223, 223, 223);
 		background-size: 100%;
 		color: black;
@@ -482,7 +483,7 @@ h2 {
 		border-radius: 10px;
 		padding-top: 20px;
 	}
-	
+
 	.col-header {
 		flex-wrap: wrap;
 		margin: auto;
@@ -492,11 +493,11 @@ h2 {
 		font-size: 2rem;
 		padding-bottom: none;
 	}
-	
+
 	.col-sm {
 		margin: auto;
 		padding-bottom: 25px;
-		
+
 	}
 	.centered {
 		position: relative;
@@ -508,7 +509,7 @@ h2 {
 	}
 	.card {
 		padding: 0px;
-		
+
 		margin-top: 0px;
 		width: auto;
 	}
@@ -552,7 +553,7 @@ h2 {
 	.alert-heading {
 		font-size: 1.2rem;
 	}
-	.alert {	
+	.alert {
 		padding-top: 15px;
 		padding-bottom: 6px;
 	}
@@ -586,8 +587,8 @@ h2 {
 		width: 100%;
 		height: fit-content;
 	}
-	
-	.row {	
+
+	.row {
 		background-color: rgb(223, 223, 223);
 		background-size: 100%;
 		color: black;
@@ -597,7 +598,7 @@ h2 {
 		border-radius: 10px;
 		padding-top: 20px;
 	}
-	
+
 	.col-header {
 		flex-wrap: wrap;
 		margin-top: 0px;;
@@ -608,11 +609,11 @@ h2 {
 		padding-top: 10px;
 		padding-bottom: none;
 	}
-	
+
 	.col-sm {
 		margin: auto;
 		padding-bottom: 25px;
-		
+
 	}
 	.centered {
 		position: relative;
