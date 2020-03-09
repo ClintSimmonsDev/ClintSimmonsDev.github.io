@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\docs",
-    "\\docs\\images"
+    "\\docs\\css",
+    "\\docs\\images",
+    "\\docs\\Pizza_Wizard"
   ],
-  "SelectedNode": "\\docs\\css",
+  "SelectedNode": "\\docs\\Pizza_Wizard\\Pizza_Wizard_2.html",
   "PreviewInSolutionExplorer": false
 }
