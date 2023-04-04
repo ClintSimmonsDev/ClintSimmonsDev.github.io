@@ -1,2 +1,3 @@
 # ClintSimmonsDev.github.io
-Clint Simmons Portfolio Site
+
+Old portfolio site from bootcamp classes at The Tech Academy
